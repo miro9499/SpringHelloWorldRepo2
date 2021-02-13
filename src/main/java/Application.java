@@ -3,7 +3,7 @@ import com.leapcode.service.SpeakerServiceImpl;
 
 public class Application {
     public static void main(String[] args){
-        //make test
+        //make test 02/13/2021
         SpeakerService service = new SpeakerServiceImpl();
         System.out.println(service.findAll().get(0).getFirstName());
         System.out.println(service.findAll().get(0).getLastName());
